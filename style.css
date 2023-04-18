@@ -1,0 +1,155 @@
+/* Couleurs */
+:root {
+    --primary-color: #D9001B;
+    --secondary-color: #F9D900;
+    --background-color: #F3F3F3;
+    --text-color: #444444;
+  }
+  
+  /* Police */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* En-tête */
+  header {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+  }
+  
+  /* Sections */
+  section {
+    margin: 3rem 0;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--primary-color);
+  }
+  
+  .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    background-color: var(--background-color);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    color: var(--text-color);
+  }
+  
+  .card-footer {
+    background-color: var(--background-color);
+    border-top: none;
+  }
+  
+  .btn-primary {
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  /* Pied de page */
+  footer {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+  .list-unstyled {
+    margin-top: 1rem;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .list-unstyled a {
+    color: #fff;
+  }
+  
+  .list-unstyled a:hover {
+    color: var(--secondary-color);
+  }
+  
+  /* Formulaire de contact */
+  form {
+    background-color: var(--background-color);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+  }
+  
+  .form-control {
+    margin-bottom: 1.5rem;
+  }
+  
+  textarea {
+    height: 10rem;
+  }
+  
+  button[type="submit"] {
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--text-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+  }
+  
+
+  p{
+    font-size: 1.5rem;
+    color: var(--text-color);
+  }

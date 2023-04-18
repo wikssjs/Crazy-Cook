@@ -1,0 +1,38 @@
+/* Stylisation du titre */
+h2 {
+    color: #383838;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Stylisation du texte */
+  p {
+    color: #707070;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Stylisation des boutons */
+  .btn-primary {
+    background-color: #FFA500;
+    border-color: #FFA500;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.75rem 2rem;
+    margin-top: 1.5rem;
+  }
+  
+  /* Stylisation de l'image */
+  .img-fluid {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+  }
+
+  
